@@ -26,21 +26,21 @@ class Main extends PluginBase implements Listener{
                        $player = $this->getServer()->getPlayer($args[0]);
                        if ($player){
                            $player->setHealth(20);
-                           $player->sendMessage("§aYou Have Been Healed!");
-                           $sender->sendMessage("§aYou Have Healed " . $args[0] . "!");
+                           $player->sendMessage("§akamu sudah sembuh!");
+                           $sender->sendMessage("§akamu sudah sembuh " . $args[0] . "!");
                        }
                        else{
-                           $sender->sendMessage("§cThis player does not exist");
+                           $sender->sendMessage("§cPemain ini tidak ada");
                        }
                    }
                    else {
                        $sender->setHealth(20);
-                       $sender->sendMessage("§aYou Have Been Healed!");
+                       $sender->sendMessage("§akamu sudah sembuh!");
                    }
                }
            }
            else{
-               $sender->sendMessage("§cYou must be in-game to use this command!");
+               $sender->sendMessage("§cAnda harus dalam game untuk menggunakan perintah ini!");
            }
           return true;
 
