@@ -1,6 +1,6 @@
 ---
 name: SimpleHeal
-api: 3.0.0
+api: 3.22.1
 version: 1.0.0
 main: Electro\SimpleHeal\Main
 author: Electro
