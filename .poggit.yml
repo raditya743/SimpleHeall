@@ -1,8 +1,8 @@
---- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Danz-X/SimpleHeall
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/raditya743/SimpleHealll
 build-by-default: true
 branches:
 - master
 projects:
-  SimpleHeall:
+  SimpleHealll:
     path: ""
 ...
